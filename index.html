@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMPN 18 MUKO MUKO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">SMPN 18 MUKO MUKO</a>
+        </div>
+        <nav>
+        <ul>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#fasilitas">Fasilitas</a></li>
+            <li><a href="#berita">Berita</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        </nav>
+        <button id="menu-btn">☰</button>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+        <h1>SMPN 18 MUKO MUKO</h1>
+        <p>Sekolah menengah pertama di atas bukit hijau, dengan lingkungan belajar yang asri.</p>
+        <a href="pendaftaran.html" class="btn-primary">Daftar Sekarang</a>
+        </div>
+        <div class="hill"></div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="section">
+        <h2>Tentang Kami</h2>
+        <p>SMP Bukit Nusantara adalah sekolah berbasis desa yang memberikan pendidikan berkualitas dengan pendekatan modern dan nilai budaya lokal.</p>
+    </section>
+
+    <!-- Program -->
+    <section id="program" class="section light">
+        <h2>Program Unggulan</h2>
+        <div class="grid">
+        <div class="card">Akademik Unggul</div>
+        <div class="card">Ekstrakurikuler Beragam</div>
+        <div class="card">Penguatan Karakter</div>
+        </div>
+    </section>
+
+    <!-- Fasilitas -->
+    <section id="fasilitas" class="section">
+        <h2>Fasilitas</h2>
+        <div class="grid">
+            <div class="card">
+            <img src="images/perpustakaan.jpg" alt="Perpustakaan Desa">
+            <div class="card-content">
+                <h3>Perpustakaan Sekolah</h3>
+                <p>Tempat membaca nyaman dengan banyak koleksi buku.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="images/lab-komputer.jpg" alt="Laboratorium Komputer">
+            <div class="card-content">
+                <h3>Memfasilitasi Laptop</h3>
+                <p>Dilengkapi laptop untuk pembelajaran digital.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="images/lapangan.jpg" alt="Lapangan Olahraga">
+            <div class="card-content">
+                <h3>Lapangan Olahraga</h3>
+                <p>Ruang terbuka luas untuk kegiatan olahraga dan ekstrakurikuler.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Berita -->
+    <section id="berita" class="section light">
+        <h2>Berita Terbaru</h2>
+        <div class="grid">
+            <article class="card">
+            <img src="images/gedung-baru.jpg" alt="Gedung Baru">
+            <div class="card-content">
+                <h3>Peresmian Gedung Baru</h3>
+                <p>Gedung belajar baru resmi dibuka dengan fasilitas modern.</p>
+            </div>
+            </article>
+            <article class="card">
+            <img src="images/festival-desa.jpg" alt="Festival Desa">
+            <div class="card-content">
+                <h3>Festival Desa</h3>
+                <p>Siswa berpartisipasi dalam kegiatan budaya dan seni desa.</p>
+            </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="kontak" class="section">
+        <h2>Kontak</h2>
+        <form id="contact-form">
+            <input type="text" id="nama" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="pesan" placeholder="Pesan" required></textarea>
+            <button type="submit" class="btn-primary">Kirim via WhatsApp</button>
+        </form>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SMPN 18 MUKO MUKO. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

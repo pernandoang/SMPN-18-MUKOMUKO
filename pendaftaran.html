@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pendaftaran Siswa Baru - SMP Bukit Nusantara</title>
+  <title>Pendaftaran Siswa Baru - SMPN 18 MUKOMUKO</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="logo">
-        <a href="/index.html">SMPN 18 MUKOMUKO</a>
+        <a href="index.html">SMPN 18 MUKOMUKO</a>
     </div>
     <nav>
       <ul>
@@ -20,17 +20,17 @@
 
   <section class="hero small">
     <h1>Pendaftaran Siswa Baru</h1>
-    <p>Isi formulir di bawah ini untuk mendaftar sebagai siswa SMP Bukit Nusantara.</p>
+    <p>Isi formulir di bawah ini untuk mendaftar sebagai siswa SMPN 18 MUKOMUKO.</p>
   </section>
 
   <section class="section">
-    <form id="daftar-form" action="https://formspree.io/f/movlobbb" method="POST">
-      <input type="text" name="nama" placeholder="Nama Lengkap" required>
-      <input type="text" name="nisn" placeholder="NISN" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="tel" name="telepon" placeholder="No. Telepon" required>
-      <textarea name="alamat" placeholder="Alamat Lengkap" required></textarea>
-      <button type="submit" class="btn-primary">Kirim Pendaftaran</button>
+    <form id="daftar-form">
+      <input type="text" id="nama" placeholder="Nama Lengkap" required>
+      <input type="text" id="nisn" placeholder="NISN" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="telepon" placeholder="No. Telepon" required>
+      <textarea id="alamat" placeholder="Alamat Lengkap" required></textarea>
+      <button type="submit" class="btn-primary">Kirim via WhatsApp</button>
     </form>
   </section>
 
@@ -38,6 +38,7 @@
     <p>&copy; 2025 SMPN 18 MUKO MUKO. Semua Hak Dilindungi.</p>
   </footer>
 
+  <!-- Hubungkan ke file JS terpisah -->
   <script src="script.js"></script>
 </body>
 </html>
